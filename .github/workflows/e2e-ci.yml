@@ -1,0 +1,7 @@
+name: e2e-ci
+on: pull_request
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'e2e 20261113-161300'
